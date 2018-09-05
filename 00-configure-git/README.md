@@ -2,11 +2,8 @@
 
 
 ## 1. Git Initial Configuration
-1. `git config --global user.name "John Doe"`
-1. `git config --global user.email "johndoe@example.com`
-
-For the vim scared:
-- `git config --global core.editor nano`
+1. `git config user.name "John Doe"`
+2. `git config user.email "johndoe@example.com`
 
 For the windows peeps:
 - `git config --global core.editor notepad`
@@ -30,9 +27,3 @@ https://help.github.com/articles/generating-an-ssh-key
 `ssh-keygen -t rsa -b 4096 -C "your_email@somewhere.com"`
 
 This generates public/private keys in %USERPROFILE%/.ssh (named id_rsa.pub)
-
-The public key can then be uploaded to your repo server:
-For GitHub this is a section in user settings.
-For BitBucket server this is SSH Keys under Manage Account
-
-Git clone ssh://git@github.com/praqma-training/gitkatas.git
