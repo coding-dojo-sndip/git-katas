@@ -19,6 +19,9 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 1. Merge uppercase into master
 1. What does the log look like now?
 
+Au lieu d'utiliser un rebasage suivi d'une avance rapide, utiliser la commande `cherry-pick` pour arriver au même résultat.
+Un diff entre les deux derniers *commits* prouvera qu'ils sont identiques.
+
 ## Useful commands
 - `git checkout <branch-name>`
 - `git rebase <branch-name>`
